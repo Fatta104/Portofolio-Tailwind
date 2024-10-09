@@ -1203,18 +1203,14 @@ body {
 }
 
 .hamburger-line {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  display: block;
-  height: 2px;
-  width: 30px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-}
-
-.hamburger-line:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  .hamburger-line {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #020617;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 }
 
 .hamburger-active > span:nth-child(1) {
@@ -1334,8 +1330,8 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.dark\:shadow-slate-400:is(.dark *) {
-  --tw-shadow-color: #94a3b8;
+.dark\:shadow-slate-500:is(.dark *) {
+  --tw-shadow-color: #64748b;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
